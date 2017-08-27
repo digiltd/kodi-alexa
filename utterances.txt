@@ -166,11 +166,7 @@ PartyMode start party mode
 
 CurrentPlayItemInquiry (what/who) is (this/playing/currently playing)
 
-CurrentPlayItemTimeRemaining how much (/time) is (left/remaining) (/on this)
-CurrentPlayItemTimeRemaining how much longer (/is this)
-CurrentPlayItemTimeRemaining (when/what time) (will/does) this end
-CurrentPlayItemTimeRemaining (when/what time) this (ends/is over)
-CurrentPlayItemTimeRemaining (when/what time) is this over
+CurrentPlayItemTimeRemaining how much time is (left/remaining) (/on this)
 
 Hibernate (hibernate/deep sleep) (/system)
 Reboot reboot (/system)
