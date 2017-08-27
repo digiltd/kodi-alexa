@@ -31,8 +31,8 @@ ViewArtists (open/go to/show) (artists/music artists/musicians)
 ViewAlbums (open/go to/show) (/music) albums
 ViewMusicVideos (open/go to/show) music videos
 ViewMusicVideos (show/find/search for) {MusicVideoGenre} music videos
-ViewAudioPlaylist (open/go to/show) (/the) (song/music/audio) playlist {AudioPlaylist}
-ViewAudioPlaylist (open/go to/show) (/the) {AudioPlaylist} (song/music/audio) playlist
+ViewAudioPlaylist (open/go to/show) (my/the) (music/audio) playlist {AudioPlaylist}
+ViewAudioPlaylist (open/go to/show) (my/the) {AudioPlaylist} (music/audio) playlist
 ViewAudioPlaylistRecent (open/go to/show) recent (albums/songs/music/audio)
 ViewAudioPlaylistRecent (open/go to/show) recently added (albums/songs/music/audio)
 ViewAudioPlaylistRecent (open/go to/show) (latest/newest) (albums/songs/music/audio)
