@@ -47,13 +47,13 @@ ViewPlaylist (open/go to/show) {VideoPlaylist} playlist
 
 Fullscreen (/toggle) (fullscreen/visualizer)
 
-Mute (/toggle/set) (mute/unmute)
-VolumeUp (/turn) volume up
-VolumeUp (/turn) up volume
-VolumeDown (/turn) volume down
-VolumeDown (/turn) down volume
-VolumeSet (/set) volume {Volume}
-VolumeSetPct (/set) volume {Volume} percent
+Mute (mute/unmute) (audio/sound)
+VolumeUp turn the volume up
+VolumeUp turn up the volume
+VolumeDown turn the volume down
+VolumeDown turn the down volume
+VolumeSet set the volume to {Volume}
+VolumeSetPct set the volume to {Volume} percent
 
 SubtitlesOn (enable/turn on) subtitles
 SubtitlesOff (disable/turn off) subtitles
