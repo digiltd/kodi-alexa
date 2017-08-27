@@ -140,11 +140,11 @@ ShuffleLatestAlbum shuffle (/the) (latest/newest) album by {Artist}
 ShuffleAlbum shuffle (album/the album) {Album}
 ShuffleAlbum shuffle (/album/the album) {Album} by {Artist}
 
-ShuffleAudioPlaylist shuffle (/the) (song/music/audio) playlist {AudioPlaylist}
+ShuffleAudioPlaylist shuffle (my/the) (song/music/audio) playlist {AudioPlaylist}
 ShuffleAudioPlaylist shuffle {AudioPlaylist} (song/music/audio) playlist
 
-ShuffleVideoPlaylist shuffle (/the) (movie/show/video) playlist {VideoPlaylist}
-ShuffleVideoPlaylist shuffle {VideoPlaylist} (movie/show/video) playlist
+ShuffleVideoPlaylist shuffle (my/the) video playlist {VideoPlaylist}
+ShuffleVideoPlaylist shuffle (my/the) {VideoPlaylist} video playlist
 
 ShufflePlaylist shuffle (/the) playlist {AudioPlaylist}
 ShufflePlaylist shuffle {AudioPlaylist} playlist
