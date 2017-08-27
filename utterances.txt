@@ -175,9 +175,6 @@ Suspend (suspend/sleep) (/system)
 Suspend put system to sleep
 Suspend go to sleep
 
-EjectMedia eject (/media/disc/compact disc/audio disc/blu-ray/blu-ray disc/c. d./d. v. d.)
-EjectMedia eject the (media/disc/compact disc/audio disc/blu-ray/blu-ray disc/c. d./d. v. d.)
-
 PlayerSeekForward (step/jump) (/forward) (/by) {ForwardDur}
 PlayerSeekForward forward (step/jump) by {ForwardDur}
 PlayerSeekSmallForward (/small) (step/jump) forward
