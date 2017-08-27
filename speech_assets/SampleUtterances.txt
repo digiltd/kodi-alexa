@@ -431,14 +431,14 @@ WatchLatestEpisode watch latest episode of {Show}
 WatchLatestEpisode watch newest episode of {Show}
 WatchLatestEpisode watch the latest episode of {Show}
 WatchLatestEpisode watch the newest episode of {Show}
-WatchMovie play film {MovieGenre}
-WatchMovie play movie {MovieGenre}
-WatchMovie play the film {MovieGenre}
-WatchMovie play the movie {MovieGenre}
-WatchMovie watch film {MovieGenre}
-WatchMovie watch movie {MovieGenre}
-WatchMovie watch the film {MovieGenre}
-WatchMovie watch the movie {MovieGenre}
+WatchMovie play film {Movie}
+WatchMovie play movie {Movie}
+WatchMovie play the film {Movie}
+WatchMovie play the movie {Movie}
+WatchMovie watch film {Movie}
+WatchMovie watch movie {Movie}
+WatchMovie watch the film {Movie}
+WatchMovie watch the movie {Movie}
 WatchMovieTrailer play preview
 WatchMovieTrailer play preview for {Movie}
 WatchMovieTrailer play the preview

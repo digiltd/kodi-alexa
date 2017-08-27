@@ -104,7 +104,7 @@ WatchVideo watch {Movie}
 
 WatchRandomMovie (play/watch) (/a) random (/{MovieGenre}) (movie/film)
 
-WatchMovie (play/watch) (/the) (movie/film) {MovieGenre}
+WatchMovie (play/watch) (/the) (movie/film) {Movie}
 
 WatchRandomMovie (play/watch) (/a) random (/{MovieGenre}) (movie/film)
 
