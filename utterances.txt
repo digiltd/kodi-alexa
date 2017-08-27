@@ -27,7 +27,7 @@ ViewShows (open/go to/show) (/t. v.) shows
 ViewShows (show/find/search for) {ShowGenre} (/t. v.) shows
 ViewMusic (open/go to/show) music
 ViewMusic (show/find/search for) {MusicGenre} music
-ViewArtists (open/go to/show) (artists/music artists/musicians)
+ViewArtists (open/go to/show) artists
 ViewAlbums (open/go to/show) (/music) albums
 ViewMusicVideos (open/go to/show) music videos
 ViewMusicVideos (show/find/search for) {MusicVideoGenre} music videos
