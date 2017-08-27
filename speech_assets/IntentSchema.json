@@ -629,60 +629,6 @@
       "intent": "AudioStreamPrevious"
     },
     {
-      "intent": "PlayerMoveUp"
-    },
-    {
-      "intent": "PlayerMoveDown"
-    },
-    {
-      "intent": "PlayerMoveLeft"
-    },
-    {
-      "intent": "PlayerMoveRight"
-    },
-    {
-      "intent": "PlayerRotateClockwise"
-    },
-    {
-      "intent": "PlayerRotateCounterClockwise"
-    },
-    {
-      "intent": "PlayerZoomHold"
-    },
-    {
-      "intent": "PlayerZoomIn"
-    },
-    {
-      "intent": "PlayerZoomInMoveUp"
-    },
-    {
-      "intent": "PlayerZoomInMoveDown"
-    },
-    {
-      "intent": "PlayerZoomInMoveLeft"
-    },
-    {
-      "intent": "PlayerZoomInMoveRight"
-    },
-    {
-      "intent": "PlayerZoomOut"
-    },
-    {
-      "intent": "PlayerZoomOutMoveUp"
-    },
-    {
-      "intent": "PlayerZoomOutMoveDown"
-    },
-    {
-      "intent": "PlayerZoomOutMoveLeft"
-    },
-    {
-      "intent": "PlayerZoomOutMoveRight"
-    },
-    {
-      "intent": "PlayerZoomReset"
-    },
-    {
       "intent": "Hibernate"
     },
     {
