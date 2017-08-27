@@ -165,17 +165,6 @@ ShufflePlaylist shuffle {AudioPlaylist} playlist
 ShufflePlaylist shuffle (/the) playlist {VideoPlaylist}
 ShufflePlaylist shuffle {VideoPlaylist} playlist
 
-RecommendVideo (suggest/recommend) something to watch
-RecommendAudio (suggest/recommend) something to listen to
-RecommendMovie (suggest/recommend) (/a) (movie/film) (/to watch)
-RecommendShow (suggest/recommend) (/a) (/t. v.) show (/to watch)
-RecommendEpisode (suggest/recommend) (/a t. v./t. v./an) episode (/to watch)
-RecommendMusicVideo (suggest/recommend) (/a) music video (/to watch/to listen to)
-RecommendArtist (suggest/recommend) ((/a) music artist/(/an) artist/(/a) musician/(/a) band) (/to listen to)
-RecommendAlbum (suggest/recommend) (/an) album (/to listen to)
-RecommendSong (suggest/recommend) (/some) (songs/music) (/to listen to)
-RecommendSong (suggest/recommend) (/a) song (/to listen to)
-
 WhatNewAlbums (if there are/are there/do i have) new albums (/to listen to)
 WhatNewAlbums (if there is/is there/do i have) a new album (/to listen to)
 WhatNewAlbums what new albums (do i have/are there) (/to listen to)

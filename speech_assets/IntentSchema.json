@@ -1,36 +1,6 @@
 {
   "intents": [
     {
-      "intent": "RecommendMedia"
-    },
-    {
-      "intent": "RecommendVideo"
-    },
-    {
-      "intent": "RecommendAudio"
-    },
-    {
-      "intent": "RecommendMovie"
-    },
-    {
-      "intent": "RecommendShow"
-    },
-    {
-      "intent": "RecommendEpisode"
-    },
-    {
-      "intent": "RecommendMusicVideo"
-    },
-    {
-      "intent": "RecommendArtist"
-    },
-    {
-      "intent": "RecommendAlbum"
-    },
-    {
-      "intent": "RecommendSong"
-    },
-    {
       "intent": "WhatNewAlbums"
     },
     {
