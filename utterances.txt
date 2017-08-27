@@ -102,9 +102,9 @@ ListenToAudioPlaylistRecent (play/listen to/shuffle) recently added (songs/music
 
 WatchVideo watch {Movie}
 
-WatchRandomMovie (play/watch) (/a) random (/{Genre}) (movie/film)
+WatchRandomMovie (play/watch) (/a) random (/{MovieGenre}) (movie/film)
 
-WatchMovie (play/watch) (/the) (movie/film) {Movie}
+WatchMovie (play/watch) (/the) (movie/film) {MovieGenre}
 
 WatchRandomMovie (play/watch) (/a) random (/{MovieGenre}) (movie/film)
 
