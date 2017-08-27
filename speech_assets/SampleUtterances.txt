@@ -95,6 +95,12 @@ EjectMedia eject the compact disc
 EjectMedia eject the d. v. d.
 EjectMedia eject the disc
 EjectMedia eject the media
+EnterText enter text {Phrase}
+EnterText enter the text {Phrase}
+EnterText send text {Phrase}
+EnterText send the text {Phrase}
+EnterText type text {Phrase}
+EnterText type the text {Phrase}
 Fullscreen fullscreen
 Fullscreen toggle fullscreen
 Fullscreen toggle visualizer
@@ -269,7 +275,6 @@ PartyMode listen to random music
 PartyMode play all music
 PartyMode play random music
 PartyMode shuffle all music
-PlayMedia play {Movie}
 PlayerMoveDown move down
 PlayerMoveDown pan down
 PlayerMoveDown track down
@@ -469,6 +474,7 @@ PlayerZoomOutMoveUp zoom out and pan up
 PlayerZoomOutMoveUp zoom out and track up
 PlayerZoomReset normal zoom
 PlayerZoomReset reset zoom
+PlayMedia play {Movie}
 Reboot reboot
 Reboot reboot system
 RecommendAlbum recommend album
@@ -1248,9 +1254,3 @@ WhatNewShows what new shows are there
 WhatNewShows what new shows are there to watch
 WhatNewShows what new shows do i have
 WhatNewShows what new shows do i have to watch
-EnterText enter the text {Phrase}
-EnterText enter text {Phrase}
-EnterText type the text {Phrase}
-EnterText type text {Phrase}
-EnterText send the text {Phrase}
-EnterText send text {Phrase}

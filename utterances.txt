@@ -20,8 +20,8 @@ PageUp (/navigate/go) page up
 PageDown (/navigate/go) page down
 PageDown show more
 Select select
-Menu (/open/context) menu
 
+Menu (/open/context) menu
 ViewMovies (open/go to/show) movies
 ViewMovies (show/find/search for) {MovieGenre} movies
 ViewShows (open/go to/show) (/t. v.) shows
@@ -109,6 +109,7 @@ ShuffleMedia shuffle {Show}
 WhatAlbums what albums (/do) (we/i/you) have by {Artist}
 
 ListenToAudio listen to {Artist}
+ListenToArtist (play/listen to/shuffle) (music by/artist) {Artist}
 
 ListenToGenre (play/listen to/shuffle) {MusicGenre} (music/songs/genre)
 
@@ -135,6 +136,8 @@ ListenToAudioPlaylistRecent (play/listen to/shuffle) recently added (songs/music
 ListenToAudioPlaylistRecent (play/listen to/shuffle) (latest/newest) (songs/music/audio/albums)
 
 WatchVideo watch {Movie}
+
+WatchRandomMovie (play/watch) (/a) random (/{Genre}) (movie/film)
 
 WatchMovie (play/watch) (/the) (movie/film) {Movie}
 
@@ -250,7 +253,6 @@ PlayerSeekBigBackward (large/big/long) (step/jump) (backward/back)
 PlayerSeekBigBackward (large/big/long) (backward/back) (step/jump)
 
 AddonExecute (open/execute/run/launch) (/addon/add on/plugin/plug in/script) {Addon}
-
 AddonGlobalSearch (find/search for) {Show}
 AddonGlobalSearch (find/search for) {Movie}
 AddonGlobalSearch (find/search for) {Album}
