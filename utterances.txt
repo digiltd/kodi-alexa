@@ -33,20 +33,12 @@ ViewMusicVideos (open/go to/show) music videos
 ViewMusicVideos (show/find/search for) {MusicVideoGenre} music videos
 ViewAudioPlaylist (open/go to/show) (my/the) (music/audio) playlist {AudioPlaylist}
 ViewAudioPlaylist (open/go to/show) (my/the) {AudioPlaylist} (music/audio) playlist
-ViewAudioPlaylistRecent (open/go to/show) recent (albums/songs/music/audio)
-ViewAudioPlaylistRecent (open/go to/show) recently added (albums/songs/music/audio)
-ViewAudioPlaylistRecent (open/go to/show) (latest/newest) (albums/songs/music/audio)
-ViewVideoPlaylist (open/go to/show) (/the) (movie/show/video) playlist {VideoPlaylist}
-ViewVideoPlaylist (open/go to/show) {VideoPlaylist} (movie/show/video) playlist
-ViewMoviePlaylistRecent (open/go to/show) recent (movies/videos)
+ViewAudioPlaylistRecent (open/go to/show) recently added music
+ViewVideoPlaylist (open/go to/show) (my/the) video playlist {VideoPlaylist}
+ViewVideoPlaylist (open/go to/show) {VideoPlaylist} video playlist
 ViewMoviePlaylistRecent (open/go to/show) recently added (movies/videos)
-ViewMoviePlaylistRecent (open/go to/show) (latest/newest) (movies/videos)
-ViewEpisodePlaylistRecent (open/go to/show) recent ((/t. v.) shows/episodes)
 ViewEpisodePlaylistRecent (open/go to/show) recently added ((/t. v.) shows/episodes)
-ViewEpisodePlaylistRecent (open/go to/show) (latest/newest) ((/t. v.) shows/episodes)
-ViewMusicVideoPlaylistRecent (open/go to/show) recent music videos
 ViewMusicVideoPlaylistRecent (open/go to/show) recently added music videos
-ViewMusicVideoPlaylistRecent (open/go to/show) (latest/newest) music videos
 ViewPlaylist (open/go to/show) (/the) playlist {AudioPlaylist}
 ViewPlaylist (open/go to/show) {AudioPlaylist} playlist
 ViewPlaylist (open/go to/show) (/the) playlist {VideoPlaylist}
