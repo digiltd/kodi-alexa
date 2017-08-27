@@ -146,11 +146,6 @@ ShuffleAudioPlaylist shuffle {AudioPlaylist} (song/music/audio) playlist
 ShuffleVideoPlaylist shuffle (my/the) video playlist {VideoPlaylist}
 ShuffleVideoPlaylist shuffle (my/the) {VideoPlaylist} video playlist
 
-ShufflePlaylist shuffle (/the) playlist {AudioPlaylist}
-ShufflePlaylist shuffle {AudioPlaylist} playlist
-ShufflePlaylist shuffle (/the) playlist {VideoPlaylist}
-ShufflePlaylist shuffle {VideoPlaylist} playlist
-
 WhatNewAlbums (if there are/are there/do i have) new albums (/to listen to)
 WhatNewAlbums (if there is/is there/do i have) a new album (/to listen to)
 WhatNewAlbums what new albums (do i have/are there) (/to listen to)
