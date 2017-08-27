@@ -128,10 +128,8 @@ WatchMusicVideo (play/watch) (/the) music video {MusicVideo} (/by {Artist})
 
 WatchRandomMusicVideo (play/watch) (/a) random (/{MusicVideoGenre}) music video (/by {Artist})
 
-WatchVideoPlaylist (play/watch) (/the) (movie/show/video) playlist {VideoPlaylist}
-WatchVideoPlaylist (play/watch) {VideoPlaylist} (movie/show/video) playlist
-WatchVideoPlaylist watch (/the) playlist {VideoPlaylist}
-WatchVideoPlaylist watch {VideoPlaylist} playlist
+WatchVideoPlaylist (play/watch) (my/the) video playlist (/called) {VideoPlaylist}
+WatchVideoPlaylist (play/watch) (my/the) {VideoPlaylist} video playlist
 
 ShuffleShow shuffle (/all) episodes of {Show}
 
