@@ -149,12 +149,11 @@ ShuffleVideoPlaylist shuffle (my/the) {VideoPlaylist} video playlist
 WhatNewAlbums (if there are/are there/do i have/is there) any new albums 
 WhatNewAlbums what new albums (do i have/are there) )
 
-WhatNewMovies (if there are/are there/do i have) new (movies/films) (/to watch)
-WhatNewMovies (if there is/is there/do i have) a new (movie/film) (/to watch)
+WhatNewMovies (if there are/are there/do i have) any new (movies/films) (/to watch)
 WhatNewMovies what new (movies/films) (do i have/are there) (/to watch)
-WhatNewMovies (if there are/are there/do (we/i) have) (/any/some) new {MovieGenre} (movies/films) (/to watch)
-WhatNewMovies (if there is/is there/do (we/i) have) a new {MovieGenre} (movie/film) (/to watch)
-WhatNewMovies what (/new) {MovieGenre} (movies/films) ((/do) (we/i/you) have/are there)
+WhatNewMovies (if there are/are there/do (we/i) have) any new {MovieGenre} (movies/films))
+WhatNewMovies (if there is/is there/do (we/i) have) a new {MovieGenre} (movie/film)
+WhatNewMovies what (/new) {MovieGenre} (movies/films) are there
 
 WhatNewShows (if there are/are there/do i have) new shows (/to watch)
 WhatNewShows (if there is/is there/do i have) a new show (/to watch)
