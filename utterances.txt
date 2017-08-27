@@ -64,9 +64,9 @@ SubtitlesDownload download subtitles
 AudioStreamNext (next/switch) audio (stream/language)
 AudioStreamPrevious (previous/last) audio (stream/language)
 
-CleanVideo clean (/video) library
+CleanVideo clean video library
 
-UpdateVideo update (/video) library
+UpdateVideo update video library
 
 CleanAudio clean (audio/music) library
 
