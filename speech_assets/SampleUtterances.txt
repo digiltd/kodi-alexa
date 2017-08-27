@@ -431,14 +431,14 @@ WatchLatestEpisode watch latest episode of {Show}
 WatchLatestEpisode watch newest episode of {Show}
 WatchLatestEpisode watch the latest episode of {Show}
 WatchLatestEpisode watch the newest episode of {Show}
-WatchMovie play film {Movie}
-WatchMovie play movie {Movie}
-WatchMovie play the film {Movie}
-WatchMovie play the movie {Movie}
-WatchMovie watch film {Movie}
-WatchMovie watch movie {Movie}
-WatchMovie watch the film {Movie}
-WatchMovie watch the movie {Movie}
+WatchMovie play film {MovieGenre}
+WatchMovie play movie {MovieGenre}
+WatchMovie play the film {MovieGenre}
+WatchMovie play the movie {MovieGenre}
+WatchMovie watch film {MovieGenre}
+WatchMovie watch movie {MovieGenre}
+WatchMovie watch the film {MovieGenre}
+WatchMovie watch the movie {MovieGenre}
 WatchMovieTrailer play preview
 WatchMovieTrailer play preview for {Movie}
 WatchMovieTrailer play the preview
@@ -475,33 +475,33 @@ WatchRandomMovie play a random film
 WatchRandomMovie play a random film
 WatchRandomMovie play a random movie
 WatchRandomMovie play a random movie
-WatchRandomMovie play a random {Genre} film
-WatchRandomMovie play a random {Genre} movie
 WatchRandomMovie play a random {MovieGenre} film
+WatchRandomMovie play a random {MovieGenre} film
+WatchRandomMovie play a random {MovieGenre} movie
 WatchRandomMovie play a random {MovieGenre} movie
 WatchRandomMovie play random film
 WatchRandomMovie play random film
 WatchRandomMovie play random movie
 WatchRandomMovie play random movie
-WatchRandomMovie play random {Genre} film
-WatchRandomMovie play random {Genre} movie
 WatchRandomMovie play random {MovieGenre} film
+WatchRandomMovie play random {MovieGenre} film
+WatchRandomMovie play random {MovieGenre} movie
 WatchRandomMovie play random {MovieGenre} movie
 WatchRandomMovie watch a random film
 WatchRandomMovie watch a random film
 WatchRandomMovie watch a random movie
 WatchRandomMovie watch a random movie
-WatchRandomMovie watch a random {Genre} film
-WatchRandomMovie watch a random {Genre} movie
 WatchRandomMovie watch a random {MovieGenre} film
+WatchRandomMovie watch a random {MovieGenre} film
+WatchRandomMovie watch a random {MovieGenre} movie
 WatchRandomMovie watch a random {MovieGenre} movie
 WatchRandomMovie watch random film
 WatchRandomMovie watch random film
 WatchRandomMovie watch random movie
 WatchRandomMovie watch random movie
-WatchRandomMovie watch random {Genre} film
-WatchRandomMovie watch random {Genre} movie
 WatchRandomMovie watch random {MovieGenre} film
+WatchRandomMovie watch random {MovieGenre} film
+WatchRandomMovie watch random {MovieGenre} movie
 WatchRandomMovie watch random {MovieGenre} movie
 WatchRandomMusicVideo play a random music video
 WatchRandomMusicVideo play a random music video by {Artist}
