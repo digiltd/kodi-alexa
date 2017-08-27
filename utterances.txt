@@ -158,8 +158,9 @@ WhatNewMovies what (/new) {MovieGenre} (movies/films) are there
 WhatNewShows (if there are/are there/do i have) any new (/t. v.) shows 
 WhatNewShows what new (/t. v.) shows (do i have/are there)
 
-WhatNewEpisodes if (there is/we have) (a new/an) episode of {Show}
-WhatNewEpisodes if (there are/we have) any (/new) episodes of {Show}
+WhatNewEpisodes if (is there/there is/we have) (a new/an) episode of {Show}
+WhatNewEpisodes if (are there/there are/we have) any new episodes of {Show}
+WhatNewEpisodes if (are there/there are/we have) any new {Show} episodes
 
 PartyMode listen to random music
 PartyMode listen to all music
