@@ -162,11 +162,7 @@ WhatNewEpisodes if (is there/there is/we have) (a new/an) episode of {Show}
 WhatNewEpisodes if (are there/there are/we have) any new episodes of {Show}
 WhatNewEpisodes if (are there/there are/we have) any new {Show} episodes
 
-PartyMode listen to random music
-PartyMode listen to all music
-PartyMode play random music
-PartyMode play all music
-PartyMode shuffle all music
+PartyMode start party mode
 
 CurrentPlayItemInquiry (what/who) is (this/playing/currently playing)
 
