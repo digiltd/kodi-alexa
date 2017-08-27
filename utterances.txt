@@ -10,16 +10,15 @@
 # others because, in testing, Alexa appears to not fuzzy match these
 # as well as those that have no slot references.
 
-Home (/navigate/go) home
-Back (/navigate/go) back
-Up (/navigate/go) up
-Down (/navigate/go) down
-Right (/navigate/go) right
-Left (/navigate/go) left
-PageUp (/navigate/go) page up
-PageDown (/navigate/go) page down
-PageDown show more
-Select select
+Home go home
+Back go back
+Up go up
+Down go down
+Right go right
+Left go left
+PageUp page up
+PageDown page down
+Select (select/o. k.)
 
 Menu (/open/context) menu
 ViewMovies (open/go to/show) movies
