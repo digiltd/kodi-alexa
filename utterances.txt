@@ -21,6 +21,7 @@ PageDown page down
 Select (select/o. k.)
 
 Menu (/open/context) menu
+Menu right click
 ViewMovies (open/go to/show) movies
 ViewMovies (show/find/search for) {MovieGenre} movies
 ViewShows (open/go to/show) (/t. v.) shows
