@@ -55,16 +55,14 @@ VolumeDown turn the down volume
 VolumeSet set the volume to {Volume}
 VolumeSetPct set the volume to {Volume} percent
 
-SubtitlesOn (enable/turn on) subtitles
-SubtitlesOff (disable/turn off) subtitles
-SubtitlesNext (next/switch) (subtitles/subtitle language)
-SubtitlesPrevious previous (subtitles/subtitle language)
+SubtitlesOn (enable/turn on/display) subtitles
+SubtitlesOff (disable/turn off/hide) subtitles
+SubtitlesNext (next/switch) subtitle language
+SubtitlesPrevious previous subtitle language
 SubtitlesDownload download subtitles
 
-AudioStreamNext (next/switch) audio (/stream)
-AudioStreamNext (next/switch) (/audio) language
-AudioStreamPrevious previous audio (/stream)
-AudioStreamPrevious previous (/audio) language
+AudioStreamNext (next/switch) audio (stream/language)
+AudioStreamPrevious (previous/last) audio (stream/language)
 
 CleanVideo clean (/video) library
 
