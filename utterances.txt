@@ -184,11 +184,11 @@ PlayerSeekSmallBackward (/small) (step/jump) (backward/back)
 PlayerSeekSmallBackward (/small) (backward/back) (step/jump)
 PlayerSeekBigBackward (large/big/long) (step/jump) (backward/back)
 
-AddonExecute (open/execute/run/launch) (/addon/add on/plugin/plug in/script) {Addon}
-AddonGlobalSearch (find/search for) {Show}
-AddonGlobalSearch (find/search for) {Movie}
-AddonGlobalSearch (find/search for) {Album}
-AddonGlobalSearch (find/search for) {Artist}
+AddonExecute (open/execute/run/launch) (/addon/add on/plugin/plug in) {Addon}
+AddonGlobalSearch global search for {Show}
+AddonGlobalSearch global search for {Movie}
+AddonGlobalSearch global search for {Album}
+AddonGlobalSearch global search for {Artist}
 
 EnterText enter (/the) text {Phrase}
 EnterText type (/the) text {Phrase}
