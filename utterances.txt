@@ -95,10 +95,8 @@ ListenToSong (play/listen to) (/the) song {Song} (from/on) (/the) album {Album}
 
 ListenToAlbumOrSong (play/listen to) {Song} by {Artist}
 
-ListenToAudioPlaylist (play/listen to) (/the) (song/music/audio) playlist {AudioPlaylist}
-ListenToAudioPlaylist (play/listen to) (/the) {AudioPlaylist} (song/music/audio) playlist
-ListenToAudioPlaylist listen to (/the) playlist {AudioPlaylist}
-ListenToAudioPlaylist listen to {AudioPlaylist} playlist
+ListenToAudioPlaylist (play/listen to) the audio playlist {AudioPlaylist}
+ListenToAudioPlaylist (play/listen to) the {AudioPlaylist} audio playlist
 
 ListenToAudioPlaylistRecent (play/listen to/shuffle) recently added (songs/music/audio/albums)
 
