@@ -292,32 +292,32 @@ Make a copy and rename it to `kodi.config` and enter the correct information for
 
 | Variable | Description | Default |
 | --- | --- | --- |
-| `language` | Currently supported languages: en, de | `en` |
-| `deep_search` | Allow playing media without specifying the media type, see [deep_search](#deep_search) | `yes` |
-| `playlist_max_items` | Limit number of items added to playlists, see [playlist_max_items](#playlist_max_items) | `100` |
-| `unwatched_shows_max_results` | Search result limits for new (unwatched) Shows | `100` |
-| `unwatched_episodes_max_results` | Search result limits for new (unwatched) Episodes | `100` |
-| `unwatched_movies_max_results` | Search result limits for new (unwatched) Movies | `100` |
-| `loglevel` | Set logging level. Possible values are: CRITICAL, ERROR, WARNING, INFO, DEBUG | `INFO` |
-| `logsensitive` | Log sensitive or personally identifying information. Disabling prevents skill logging the target address for Kodi and device IDs. | `yes` |
-| `skill_id` | Set skill_id to enable verification of requests |  |
-| `playlist_max_items` | Maximum number of items to generate per slot | `100` |
-| `slot_items_max` | Max items generated when using `generate_custom_slots.py`  | `100` |
-| `scheme` | The Kodi webserver only supports HTTP, but if you've set up a reverse HTTPS proxy you can change this to https | `http` |
-| `address` | The dns address into your local network from the internet. See [Obtaining Your Internet Address](#obtaining-your-internet-address) | `127.0.0.1` |
-| `port` | Port | `8080` |
-| `subpath` | If using a reverse proxy you might need to add an extra bit to the url before `jsonrpc` (don't use slashes before or after) |  |
-| `username` | As set in Kodi, used to access the built in web server, see [Kodi Setup](#kodi-setup) | `kodi` |
-| `password` | As set in Kodi, used to access the built in web server, see [Kodi Setup](#kodi-setup) | `kodi` |
-| `cache_bucket` | AWS S3 bucket or directory name used to store cached responses (see [Caching Responses](#caching-responses))  | |
-| `s3_cache_aws_access_key_id` | Security creditial "access key" of user account with access to bucket. See [Configuring for Amazon S3](#configuring-for-amazon-s3) |  |
-| `s3_cache_aws_secret_access_key` | Security creditial "Secret access key" of user account with access to bucket. See [Configuring for Amazon S3](#configuring-for-amazon-s3) |  |
-| `owncloud_cache_url` | Base URL for your ownCloud server, see [Configuring for ownCloud or nextCloud] |  |
-| `owncloud_cache_user` | ownCloud username, see [Configuring for ownCloud or nextCloud] | |
-| `owncloud_cache_password` | ownCloud password (see [Configuring for ownCloud or nextCloud]) | |
-| `read_timeout` | How long to wait for responses from Kodi before giving up, normally there is no need to change this. | `120` |
-| `read_timeout_async` | See [read_timeout_async](#read_timeout_async), normally there is no need to change this. | `0.01` |
-| `shutdown` | Set shutdown to 'quit' if you'd like "Alexa, tell Kodi to shut down" to quit Kodi instead of shutting down the system. |  |
+| language | Currently supported languages: en, de | `en` |
+| deep_search | Allow playing media without specifying the media type, see [deep_search](#deep_search) | `yes` |
+| playlist_max_items | Limit number of items added to playlists, see [playlist_max_items](#playlist_max_items) | `100` |
+| unwatched_shows_max_results | Search result limits for new (unwatched) Shows | `100` |
+| unwatched_episodes_max_results | Search result limits for new (unwatched) Episodes | `100` |
+| unwatched_movies_max_results | Search result limits for new (unwatched) Movies | `100` |
+| loglevel | Set logging level. Possible values are: CRITICAL, ERROR, WARNING, INFO, DEBUG | `INFO` |
+| logsensitive | Log sensitive or personally identifying information. Disabling prevents skill logging the target address for Kodi and device IDs. | `yes` |
+| skill_id | Set skill_id to enable verification of requests |  |
+| playlist_max_items | Maximum number of items to generate per slot | `100` |
+| slot_items_max | Max items generated when using `generate_custom_slots.py`  | `100` |
+| scheme | The Kodi webserver only supports HTTP, but if you've set up a reverse HTTPS proxy you can change this to https | `http` |
+| address | The dns address into your local network from the internet. See [Obtaining Your Internet Address](#obtaining-your-internet-address) | `127.0.0.1` |
+| port | Port | `8080` |
+| subpath | If using a reverse proxy you might need to add an extra bit to the url before `jsonrpc` (don't use slashes before or after) |  |
+| username | As set in Kodi, used to access the built in web server, see [Kodi Setup](#kodi-setup) | `kodi` |
+| password | As set in Kodi, used to access the built in web server, see [Kodi Setup](#kodi-setup) | `kodi` |
+| cache_bucket | AWS S3 bucket or directory name used to store cached responses (see [Caching Responses](#caching-responses))  | |
+| s3_cache_aws_access_key_id | Security creditial "access key" of user account with access to bucket. See [Configuring for Amazon S3](#configuring-for-amazon-s3) |  |
+| s3_cache_aws_secret_access_key | Security creditial "Secret access key" of user account with access to bucket. See [Configuring for Amazon S3](#configuring-for-amazon-s3) |  |
+| owncloud_cache_url | Base URL for your ownCloud server, see [Configuring for ownCloud or nextCloud] |  |
+| owncloud_cache_user | ownCloud username, see [Configuring for ownCloud or nextCloud] | |
+| owncloud_cache_password | ownCloud password (see [Configuring for ownCloud or nextCloud]) | |
+| read_timeout | How long to wait for responses from Kodi before giving up, normally there is no need to change this. | `120` |
+| read_timeout_async | See [read_timeout_async](#read_timeout_async), normally there is no need to change this. | `0.01` |
+| shutdown | Set shutdown to 'quit' if you'd like "Alexa, tell Kodi to shut down" to quit Kodi instead of shutting down the system. |  |
 
 
 
