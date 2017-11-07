@@ -4,7 +4,7 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Contents**
 
-- [About](#about)
+- [About Kodi-Alexa](#about-kodi-alexa)
   - [Kodi-Alexa in Action](#kodi-alexa-in-action)
   - [Supported Commands](#supported-commands)
   - [Getting Help](#getting-help)
@@ -26,6 +26,12 @@
   - [AWS Lambda](#aws-lambda)
     - [Pricing](#pricing-1)
     - [Setup](#setup-2)
+  - [kodi.config](#kodiconfig)
+    - [deep_search](#deep_search)
+    - [playlist_max_items](#playlist_max_items)
+    - [unwatched_foo_max_results](#unwatched_foo_max_results)
+    - [read_timeout_async](#read_timeout_async)
+    - [timezone](#timezone)
   - [Self Hosting](#self-hosting)
 - [Skill Setup](#skill-setup)
   - [Skill Information](#skill-information)
@@ -224,8 +230,22 @@ _Coming soon_.
 
 
 ## AWS Lambda
+
+Amazon Web Services Lambda is a great service which lets the skill run "serverless". Rather than setting up a full server to host the skill, it creates mini disposable servers on demand.
+
+As part of the Amazon ecosystem it is easy to link your Skill to as you don't have to worry about certificates. 
+
+You do need a credit card to set up an account.
+
+Amazon Web Services in general is  for advanced users so it can be a little intimidating.
+
+### Zappa
+In order for the Skill to work on AWS you need to install and use a seperate tool called Zappa.
+
 ### Pricing
-Lambda is a great service which lets the skill run "serverless." AWS provides credits for new accounts and should allow you to run everything the skill needs for free for 12 months. Once you are being billed for it, it will be less than $0.20/month. Very reasonable for what it offers.
+AWS provides a __free tier__ for new accounts which gives very generous free limits for most of thier services. We are interested in the 1 million free Lambda requests a month, which is forever, not just the first year (unlike some of the other __free tier__ allowances which are only for the first 12 months).
+
+1 million should be plenty, if for some reason you do make over 30,000 requests to your Kodi-Alexa Skill per day, you will be charged $0.20 per 1 million requests thereafter ($0.0000002 per request)
 
 ### Setup
 Getting going on Lambda is pretty straightforward. First, you'll need to create an Amazon developer account if you don't have one already. After that, browse to the [IAM Management Console](https://console.aws.amazon.com/iam/home) where you will create a new user:
@@ -250,7 +270,6 @@ After you've done that, run `pip install virtualenv`. This is required for a lat
 Now, clone my repo: `git clone https://github.com/m0ngr31/kodi-alexa.git` and `cd kodi-alexa`. Once you are inside the project directory, you're going to create a new "Virtual environement" and then activate it:
 `virtualenv venv` and `source venv/bin/activate` (if you are on Windows, that's `venv\Scripts\activate.bat` or `venv\Scripts\activate.ps1` for Powershell).
 
-Next you need to create the file `kodi.config` from the [kodi.config.example template](https://raw.githubusercontent.com/m0ngr31/kodi-voice/master/kodi_voice/kodi.config.example) and enter the correct information for: address, port, username, and password. I'll go over the other variables in another section below.
 
 After you've created your config file, run `pip install -r requirements.txt` and `pip install packaging zappa lambda-packages`.
 
@@ -263,6 +282,93 @@ You are now running on Lambda! To update after there is a change here, or you up
 
 Now skip ahead to [Skill Setup](#skill-setup).
 
+## kodi.config
+
+For AWS and hosting locally you need to create a `kodi.config` file.
+
+Download the [kodi.config.example template](https://raw.githubusercontent.com/m0ngr31/kodi-voice/master/kodi_voice/kodi.config.example) (right click and "save link as") and save it into the root folder of the Skill (the one with alexa.py in it).
+
+Make a copy and rename it to `kodi.config` and enter the correct information for your setup. See below for details.
+
+| Variable | Description | Default |
+| --- | --- | --- |
+| `language` | Currently supported languages: en, de | `en` |
+| `deep_search` | Allow playing media without specifying the media type, see [deep_search](#deep_search) | `yes` |
+| `playlist_max_items` | Limit number of items added to playlists, see [playlist_max_items](#playlist_max_items) | `100` |
+| `unwatched_shows_max_results` | Search result limits for new (unwatched) Shows | `100` |
+| `unwatched_episodes_max_results` | Search result limits for new (unwatched) Episodes | `100` |
+| `unwatched_movies_max_results` | Search result limits for new (unwatched) Movies | `100` |
+| `loglevel` | Set logging level. Possible values are: CRITICAL, ERROR, WARNING, INFO, DEBUG | `INFO` |
+| `logsensitive` | Log sensitive or personally identifying information. Disabling prevents skill logging the target address for Kodi and device IDs. | `yes` |
+| `skill_id` | Set skill_id to enable verification of requests |  |
+| `playlist_max_items` | Maximum number of items to generate per slot | `100` |
+| `slot_items_max` | Max items generated when using `generate_custom_slots.py`  | `100` |
+| `scheme` | The Kodi webserver only supports HTTP, but if you've set up a reverse HTTPS proxy you can change this to https | `http` |
+| `address` | The dns address into your local network from the internet. See [Obtaining Your Internet Address](#obtaining-your-internet-address) | `127.0.0.1` |
+| `port` | Port | `8080` |
+| `subpath` | If using a reverse proxy you might need to add an extra bit to the url before `jsonrpc` (don't use slashes before or after) |  |
+| `username` | As set in Kodi, used to access the built in web server, see [Kodi Setup](#kodi-setup) | `kodi` |
+| `password` | As set in Kodi, used to access the built in web server, see [Kodi Setup](#kodi-setup) | `kodi` |
+| `cache_bucket` | AWS S3 bucket or directory name used to store cached responses (see [Caching Responses](#caching-responses))  | |
+| `s3_cache_aws_access_key_id` | Security creditial "access key" of user account with access to bucket. See [Configuring for Amazon S3](#configuring-for-amazon-s3) |  |
+| `s3_cache_aws_secret_access_key` | Security creditial "Secret access key" of user account with access to bucket. See [Configuring for Amazon S3](#configuring-for-amazon-s3) |  |
+| `owncloud_cache_url` | Base URL for your ownCloud server, see [Configuring for ownCloud or nextCloud] |  |
+| `owncloud_cache_user` | ownCloud username, see [Configuring for ownCloud or nextCloud] | |
+| `owncloud_cache_password` | ownCloud password (see [Configuring for ownCloud or nextCloud]) | |
+| `read_timeout` | How long to wait for responses from Kodi before giving up, normally there is no need to change this. | `120` |
+| `read_timeout_async` | See [read_timeout_async](#read_timeout_async), normally there is no need to change this. | `0.01` |
+| `shutdown` | Set shutdown to 'quit' if you'd like "Alexa, tell Kodi to shut down" to quit Kodi instead of shutting down the system. |  |
+
+
+
+
+### deep_search
+
+By default, if you ask to play media without specifying the type, the skill will search through the entire library to find a match.
+
+For example, if you ask, "Alexa, ask Kodi to play ninety nine red balloons" the skill doesn't know it is a song and will search all library items in the following order looking for a match for "ninety nine red balloons":
+
+   Movies -> Shows -> Artists -> Songs -> Albums
+
+If your library is really large, this can take some time to complete.  While it will eventually execute, Alexa may report that the skill timed out.  If this behavior bothers you, you can disable deep searches.
+
+When disabled, Alexa will simply provide help in the response directing you to issue a play command that includes the media type of the item.
+
+### playlist_max_items
+
+Limit number of items we add to playlists.
+
+Some requests will cause the skill to create a temporary playlist in Kodi before executing your command.  This operation is expensive in Kodi, so we provide the option here to limit the number of items added.
+
+The default is 100 to match Kodi's own 'party mode.'  Higher values will make these operations slower, but if your setup can handle it, you're free to set this to whatever you like.
+
+Set to an empty string for unlimited.
+
+### unwatched_foo_max_results
+
+Search result limits for new (unwatched) Movies and Episodes.
+
+By default we ask kodi to return a max of 100 results per JSON request. Here you can set this figure to optimize the system for you.
+
+Results are always retrieved in order of newest episodes and movies first.
+
+Lower figures will produce faster results and limit them to only media that you've recently added to the library.
+
+### read_timeout_async
+
+For some commands, we don't care about the response from Kodi, so we send them "fire-and-forget."  If you've got a proxy server in the middle, though, it's possible the command might not make it to Kodi before the skill exits.
+
+If Alexa is telling you she has completed a command but it sometimes does not actually execute on Kodi, you may need to increase this.
+
+### timezone
+
+Your local time zone for responses that include absolute times. See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+For example, if you are in the Eastern US time zone, you would use: timezone = US/Eastern
+
+Leave empty if you don't need or want absolute time responses.  An example is asking when the currently playing item will end.  If you have this defined, it will also tell you the wall-clock time when the item will conclude.
+
+---
 
 ## Self Hosting
 

@@ -1,0 +1,54 @@
+# See https://github.com/m0ngr31/kodi-alexa#kodiconfig for details
+
+# Global configuration
+[global]
+
+language = en
+deep_search = yes
+playlist_max_items = 100
+unwatched_shows_max_results= 100
+unwatched_episodes_max_results  = 100
+unwatched_movies_max_results = 100
+loglevel = INFO
+logsensitive = yes
+
+# Global Alexa skill configuration
+[alexa]
+
+skill_id =
+slot_items_max = 100
+
+# Default parameters common to all Alexa devices and the web simulator
+[DEFAULT]
+
+scheme = http
+address = 127.0.0.1
+port = 8080
+subpath =
+username = kodi
+password = kodi
+
+read_timeout = 120
+read_timeout_async = 0.01
+
+shutdown =
+timezone =
+
+
+# Override default values by specifying them below for individual devices.
+#
+# The usual reason to do this is to associate a given Echo device with a
+# particular instance of Kodi in your house, but you can override any of
+# the other configuration variables from the DEFAULT section here too.
+#
+# Device IDs can be found in the skill server / lambda log.
+
+# living room dot
+[amzn1.ask.device.XXX]
+address = living-room-kodi
+username = kodi
+password = kodi
+
+# kitchen echo
+[amzn1.ask.device.XXX]
+address = kitchen-kodi
