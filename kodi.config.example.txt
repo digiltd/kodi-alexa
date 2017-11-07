@@ -1,8 +1,8 @@
 # See https://github.com/m0ngr31/kodi-alexa#kodiconfig for details
 
 # Global configuration
-[global]
 
+[global]
 language = en
 deep_search = yes
 playlist_max_items = 100
@@ -13,24 +13,22 @@ loglevel = INFO
 logsensitive = yes
 
 # Global Alexa skill configuration
-[alexa]
 
+[alexa]
 skill_id =
 slot_items_max = 100
 
 # Default parameters common to all Alexa devices and the web simulator
-[DEFAULT]
 
+[DEFAULT]
 scheme = http
 address = 127.0.0.1
 port = 8080
 subpath =
 username = kodi
 password = kodi
-
 read_timeout = 120
 read_timeout_async = 0.01
-
 shutdown =
 timezone =
 

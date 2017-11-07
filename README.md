@@ -290,7 +290,11 @@ Download the [kodi.config.example template](https://raw.githubusercontent.com/m0
 
 Make a copy and rename it to `kodi.config` and enter the correct information for your setup. See below for details.
 
-| Variable | Description | Default |
+### Global Skill settings
+
+
+
+| Parameter | Description | Default value |
 | --- | --- | --- |
 | language | Currently supported languages: en, de | `en` |
 | deep_search | Allow playing media without specifying the media type, see [deep_search](#deep_search) | `yes` |
@@ -300,6 +304,15 @@ Make a copy and rename it to `kodi.config` and enter the correct information for
 | unwatched_movies_max_results | Search result limits for new (unwatched) Movies | `100` |
 | loglevel | Set logging level. Possible values are: CRITICAL, ERROR, WARNING, INFO, DEBUG | `INFO` |
 | logsensitive | Log sensitive or personally identifying information. Disabling prevents skill logging the target address for Kodi and device IDs. | `yes` |
+
+### Primary Alexa Skill configuration
+
+Default parameters common to all Alexa devices and the web simulator. 
+
+It is possible to override any of the default parameters for each individual device that has access to the Skill, see [Controlling More Than One Instance of Kodi](#controlling-more-than-one-instance-of-kodi)
+
+| Parameter | Description | Default value |
+| --- | --- | --- |
 | skill_id | Set skill_id to enable verification of requests |  |
 | playlist_max_items | Maximum number of items to generate per slot | `100` |
 | slot_items_max | Max items generated when using `generate_custom_slots.py`  | `100` |
@@ -318,6 +331,7 @@ Make a copy and rename it to `kodi.config` and enter the correct information for
 | read_timeout | How long to wait for responses from Kodi before giving up, normally there is no need to change this. | `120` |
 | read_timeout_async | See [read_timeout_async](#read_timeout_async), normally there is no need to change this. | `0.01` |
 | shutdown | Set shutdown to 'quit' if you'd like "Alexa, tell Kodi to shut down" to quit Kodi instead of shutting down the system. |  |
+| timezone | Time zone for responses that include absolute times, optional, see [timezone](#timezone) |  |
 
 
 
